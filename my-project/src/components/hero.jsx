@@ -3,12 +3,12 @@ import HeroImage from '../assets/headshot.jpg'
 
 const Hero = () => {
   return (
-    <section className="w-full bg-black text-white py-12">
+    <section id="home" className="w-full bg-black text-white py-12">
       <div className="mx-auto max-w-6xl min-h-screen flex flex-col items-center justify-center px-4">
         
         <img
           src={HeroImage}
-          alt=""
+          alt="Sruthi Dacherla Headshot"
           className="mb-8 w-48 h-48 rounded-full object-cover transform 
                      transition-transform duration-300 hover:scale-105"
         />

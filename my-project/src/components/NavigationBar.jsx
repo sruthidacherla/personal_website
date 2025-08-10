@@ -12,8 +12,12 @@ const NavigationBar = () => {
                 <a href="#skills" className='hover:text-pink-300'>Skills</a>
                 <a href="#certifications" className='hover:text-pink-300'>Certifications</a>
             </div>
-            <button className='bg-gradient-to-r from-pink-500 to-blue-500 text-white hidden md:inline
-            transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>Connect With Me</button>
+            <a href="#contact" className="bg-gradient-to-r from-pink-500 to-blue-500 text-white hidden md:inline
+                                          transform transition-transform duration-300 hover:scale-105 px-4 
+                                          py-2 rounded-full text-center"
+            >
+              Connect With Me
+            </a>
         </div>
     </nav>
   );

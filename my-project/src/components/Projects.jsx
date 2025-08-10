@@ -13,7 +13,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="bg-black text-white py-20" id="project">
+    <div className="bg-black text-white py-20" id="projects">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
 
         {/* My Projects Title */}
