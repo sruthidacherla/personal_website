@@ -4,6 +4,7 @@ import NavigationBar from './components/NavigationBar';
 import Hero from './components/hero';
 import About from './components/About';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <About />
         <Projects />
+        <Skills />
     </div>
   )
 }
