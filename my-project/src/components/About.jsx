@@ -10,7 +10,7 @@ const About = () => {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-blue-500">
                     About Me
                 </span>
-                </h1>
+        </h1>
         <p className="text-lg text-gray-300 leading-relaxed mb-16">
           I’m a 3rd-year at the University of Virginia majoring in Computer Science
           with a minor in Entrepreneurship. My passion lies in creating clean,
