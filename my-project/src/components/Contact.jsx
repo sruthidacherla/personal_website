@@ -15,7 +15,7 @@ const Contact = () => {
           {/* Left Section */}
           <div className="flex-1">
             <h3 className="text-3xl font-bold text-pink-400 mb-4">
-                Let’s Talk
+                Let’s Connect!
             </h3>
             <p className="text-gray-300">
                 I’m currently seeking opportunities in software engineering, full-stack development, and UI/UX design.
