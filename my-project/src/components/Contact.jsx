@@ -41,7 +41,7 @@ const Contact = () => {
           {/* Right Section - Contact Form */}
           <div className="flex-1 w-full">
             <form
-              action="https://formsubmit.co/test@test.com"
+              action="https://formsubmit.co/dacherlasruthi@gmail.com"
               method="POST"
               className="space-y-4"
             >
