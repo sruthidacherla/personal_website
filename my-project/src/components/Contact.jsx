@@ -18,8 +18,7 @@ const Contact = () => {
                 Let’s Connect!
             </h3>
             <p className="text-gray-300">
-                I’m currently seeking opportunities in software engineering, full-stack development, and UI/UX design.
-                If you have a project, role, or collaboration in mind, I’d be happy to connect and explore how I can contribute.
+            I work across software engineering, full-stack development, and front-end/UI. If you’re interested in collaborating or connecting, I’d be happy to chat.
             </p>
             <div className="mb-4 mt-8">
               <FaEnvelope className="inline-block text-blue-400 mr-2" />
@@ -41,7 +40,17 @@ const Contact = () => {
 
           {/* Right Section - Contact Form */}
           <div className="flex-1 w-full">
-            <form className="space-y-4">
+            <form
+              action="https://formsubmit.co/dacherlasruthi@gmail.com"
+              method="POST"
+              className="space-y-4"
+            >
+              {/* Disable CAPTCHA */}
+              <input type="hidden" name="_captcha" value="false" />
+
+              {/* Optional: Redirect after sending */}
+              {/* <input type="hidden" name="_next" value="https://yourdomain.com/thanks" /> */}
+
               <div>
                 <label htmlFor="name" className="block mb-2">
                   Your Name
@@ -49,10 +58,13 @@ const Contact = () => {
                 <input
                   type="text"
                   id="name"
+                  name="name"
                   className="w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-green-400"
                   placeholder="Enter Your Name"
+                  required
                 />
               </div>
+
               <div>
                 <label htmlFor="email" className="block mb-2">
                   Email
@@ -60,21 +72,27 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
+                  name="email"
                   className="w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-green-400"
                   placeholder="Enter Your Email"
+                  required
                 />
               </div>
+
               <div>
                 <label htmlFor="message" className="block mb-2">
                   Message
                 </label>
                 <textarea
                   id="message"
+                  name="message"
                   className="w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-green-400"
                   rows="5"
                   placeholder="Type Your Message"
+                  required
                 ></textarea>
               </div>
+
               <button
                 type="submit"
                 className="bg-gradient-to-r from-pink-400 to-blue-500 text-white transform transition-transform duration-300 hover:scale-105 px-8 py-2 rounded-full"
