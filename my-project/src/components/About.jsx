@@ -12,14 +12,10 @@ const About = () => {
                 </span>
         </h1>
         <p className="text-lg text-gray-300 leading-relaxed mb-16">
-          I’m a 3rd-year at the University of Virginia majoring in Computer Science
-          with a minor in Entrepreneurship. My passion lies in creating clean,
-          user-friendly digital experiences that combine design and functionality
-          to solve real-world problems. I’m driven to use technology in creative
-          and purposeful ways that make a positive impact. Outside of academics,
-          I’m passionate about staying active through sports and fitness, exploring
-          new places, and pursuing entrepreneurial ideas that bring people together
-          and create value.
+        I’m a 3rd-year Computer Science major at the University of Virginia with a minor in Technology Entrepreneurship. 
+        I’m passionate about building clean, efficient, and user-friendly digital experiences, and I enjoy working across the stack to 
+        solve real-world problems with technology. Outside of academics, I stay active through sports and fitness, enjoy exploring new places, 
+        and love working on side projects that let me experiment and learn.
         </p>
 
                 <div className="mx-auto max-w-3xl">
@@ -30,10 +26,10 @@ const About = () => {
                         University of Virginia
                         </h3>
                         <p className="text-gray-400 italic">
-                        B.A. Computer Science • Minor in Entrepreneurship <br />
+                        B.A. Computer Science • Minor in Technology Entrepreneurship <br />
                         Master’s in Computer Science (2026-2027)
                         </p>
-                        <p className="text-gray-300">Expected Graduation: 2027</p>
+                        <p className="text-gray-300">Expected Graduation: May 2027</p>
 
                         {/* classes */}
                         <div className="mt-4 flex flex-wrap justify-center gap-3">
@@ -53,7 +49,7 @@ const About = () => {
                         Intro to Cybersecurity
                         </span>
                         <span className="px-4 py-1.5 rounded-full text-sm bg-gradient-to-r from-teal-400 to-green-500">
-                        Special Topics (CS) – Autonomous Vehicles
+                        F1Tenth Autonomous Vehicles
                         </span>
                         </div>
                     </div>
@@ -77,7 +73,6 @@ const About = () => {
                             Zeta Tau Alpha Sorority: Secretary of Philanthropy, 
                             Data Science and Analytics, 
                             Smart Woman Securities, 
-                            Club Flag Football, 
                             Indian Student Association </p>
                     </div>
                     </div>
