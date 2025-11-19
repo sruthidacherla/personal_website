@@ -4,7 +4,7 @@ const skills = [
   {
     id: 1,
     title: "Full-Stack Development",
-    description: "React, Tailwind CSS, Node.js, SQL, Git, REST APIs, MongoDB",
+    description: "Python, React, Node.js, JavaScript, Java, SQL, REST APIs, Git, MongoDB",
   },
   {
     id: 2,
@@ -13,13 +13,23 @@ const skills = [
   },
   {
     id: 3,
-    title: "AI & Machine Learning",
-    description: "Python, Streamlit, OpenAI API",
+    title: "Cloud & DevOps",
+    description: "AWS, Docker, Kubernetes, CI/CD",
   },
   {
     id: 4,
     title: "Geospatial Analysis",
-    description: "Google Earth Engine, Remote Sensing, GIS, Data Visualization",
+    description: "Google Earth Engine, Remote Sensing, GIS, NDVI/Imagery Analysis",
+  },
+  {
+    id: 5,
+    title: "Robotics & Autonomous Systems",
+    description: "ROS, LiDAR Processing, Algorithms (Wall Following, Follow-the-Gap)",
+  },
+  {
+    id: 6,
+    title: "UI/Front-End",
+    description: "Figma, React, Tailwind CSS",
   },
 ];
 const Skill = () => {
